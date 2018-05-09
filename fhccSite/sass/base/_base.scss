@@ -1,0 +1,21 @@
+// partial sass file
+
+/* Set up a cross browser reset using universal selector*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* gets rid of margin, border, padding as factors of element dimensions */
+    box-sizing: inherit;
+}
+
+html {
+    // this defines what 1 rem is
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
